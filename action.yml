@@ -5,6 +5,10 @@ inputs:
   args:
     description: 'Arguments to pass to the Eleventy invocation'
     required: false
+  directory:
+    description: 'Directory your Eleventy site is in'
+    required: false
+    default: .
   install_dependencies:
     description: 'If set to `true`, `npm install` will be run before Eleventy is invoked'
     required: false
